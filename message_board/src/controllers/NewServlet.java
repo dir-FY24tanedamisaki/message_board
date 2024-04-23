@@ -11,10 +11,7 @@ import models.Message;
 @WebServlet("/new")
 public class NewServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
-
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
+    
     public NewServlet() {
         super();
     }
